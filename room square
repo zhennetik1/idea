@@ -1,0 +1,8 @@
+def calculate_square(length, width):
+    return length * width
+
+# Example usage
+room_length = 10
+room_width = 5
+square_of_room = calculate_square(room_length, room_width)
+print(f"The square of the room is {square_of_room}")
